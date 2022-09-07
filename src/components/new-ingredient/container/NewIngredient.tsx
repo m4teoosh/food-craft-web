@@ -9,7 +9,7 @@ export default function NewIngredient() {
     return (
         <div className='container'>
             <div className='header'>
-                NEW INGREDIENT
+               NEW INGREDIENT
             </div>
             <NewIngForm />
             <div className='footer'>
