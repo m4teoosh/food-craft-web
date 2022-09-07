@@ -13,7 +13,7 @@ function Recipe() {
 
         axios.get('https://rs-food-craft.herokuapp.com/ingredients')
             .then(function (response) {
-                console.log(response);
+                console.log(response.data);
                 setIngredients(response.data)
             })
             .catch(function (error) {
