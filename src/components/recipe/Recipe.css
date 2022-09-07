@@ -1,0 +1,42 @@
+.new-recipe {
+    height: 600px;
+    width: 500px;
+    display: grid;
+    grid-template-rows: 3fr 1fr 3fr;
+    background-color: whitesmoke;
+    border: solid #131111 20px;
+    border-radius: 50px;
+}
+
+.ingredients-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.ingredients-container > * {
+    flex-grow: 1;
+}
+
+.selected-ingredients {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+
+}
+
+.search-ingredients {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+
+}
+
+
+
+
