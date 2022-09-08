@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import './Recipe.css'
 import IngredientsContainer from "./containers/Ingredients/IngredientsContainer";
 import Basket from "./Basket/Basket";
