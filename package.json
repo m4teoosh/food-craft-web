@@ -1,13 +1,13 @@
 {
   "name": "food-app",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "run": "tsc && vite build",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "serve": "vite preview"
   },
   "dependencies": {
     "@apollo/client": "^3.6.9",
