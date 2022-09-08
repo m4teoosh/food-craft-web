@@ -1,9 +1,8 @@
-import React, {useEffect, useState} from 'react';
 import './Recipe.css'
-import IngredientsContainer from "./containers/Ingredients/IngredientsContainer";
-import Basket from "./Basket/Basket";
-import Search from "./Search/Search";
+
 import axios from "axios";
+import React from 'react'
+import {useState} from "react";
 
 function Recipe() {
 
@@ -27,17 +26,7 @@ function Recipe() {
     console.log(ingredients)
 
     return (
-        <div className='new-recipe'>
-            <div className='selected-ingredients'>
-                <Basket />
-            </div>
-            <Search />
-            <div className='ingredients-container'>
-                <IngredientsContainer
-                    arr={ingredients}
-                />
-            </div>
-        </div>
+        <div>cip</div>
     );
 }
 
